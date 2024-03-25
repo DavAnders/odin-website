@@ -74,6 +74,7 @@
   justify-content: start;
   align-items: start;
   font-size: 18px;
+  max-width: 750px;
 }
 
 .description p {
@@ -122,9 +123,14 @@
 .image-container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: start;
   color: #1f2937;
   font-size: 18px;
+  gap: 20px;
+}
+
+.image-container p {
+  width: 300px;
 }
 .text {
   font-size: 36px;
@@ -135,4 +141,30 @@
   display: flex;
   flex-direction: column;
   text-align: center;
+}
+
+.container {
+  justify-content: center;
+}
+
+.container-three {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e7eb;
+  color: #1f2937;
+}
+
+.quote q {
+  font-size: 36px;
+}
+.quote p {
+  font-size: 24px;
+  color: #1f2937;
+  font-weight: bolder;
+  text-align: end;
+}
+.container-q {
+  margin: 200px;
+  padding-left: 200px;
+  padding-right: 200px;
 }
